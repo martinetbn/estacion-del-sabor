@@ -1,3 +1,8 @@
+:root {
+    --bg-color: #FFDF61;
+    --text-color: #6E4332;;
+}
+
 html, body {
     margin: 0;
     padding-left: 8px;
@@ -7,8 +12,8 @@ html, body {
 
 header, footer {
     padding: 32px;
-    background-color: #FFDF61;
-    color: #6E4332;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     font-family: "Zilla Slab", serif;
     font-weight: bold;
     font-size: 20px;
@@ -23,4 +28,17 @@ header {
 
 footer {
     border-radius: 24px 24px 0 0;
+}
+
+.more-button {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Zilla Slab", serif;
+    font-size: 16px;
 }
