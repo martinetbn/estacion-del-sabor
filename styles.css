@@ -55,6 +55,31 @@ footer {
     border-radius: 24px 24px 0 0;
 }
 
+footer > h3 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 24px;
+}
+
+#socials {
+    margin: 24px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    height: 20px;
+}
+
 main {
     flex-grow: 1;
 }
@@ -124,6 +149,8 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
     padding: 8px 16px 8px 16px;
     border-radius: 8px;
     border: none;
