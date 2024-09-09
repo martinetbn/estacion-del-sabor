@@ -1,103 +1,74 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estación del Sabor</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Zilla+Slab:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="container">
-      <nav>
-        <button class="nav-button">
-          <img
-            src="./assets/icons/nav/home-icon.svg"
-            alt="Ícono de inicio"
-            class="nav-icon"
-          />
-          <span class="nav-title">Inicio</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estación del Sabor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Zilla+Slab:wght@400;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="container">
+    <nav>
+      <button class="nav-button">
+        <img src="./assets/icons/nav/home-icon.svg" alt="Ícono de inicio" class="icon nav-icon">
+        <span class="nav-title">Inicio</span>
+      </button>
+      <button class="nav-button">
+        <img src="./assets/icons/nav/menu-icon.svg" alt="Ícono de menú" class="icon nav-icon">
+        <span class="nav-title">Menú</span>
+      </button>
+      <button class="nav-button">
+        <img src="./assets/icons/nav/location-icon.svg" alt="Ícono de ubicación" class="icon nav-icon">
+        <span class="nav-title">Ubicación</span>
+      </button>
+      <button class="nav-button">
+        <img src="./assets/icons/nav/reviews-icon.svg" alt="Ícono de reseñas" class="icon nav-icon">
+        <span class="nav-title">Reseñas</span>
+      </button>
+      <button class="nav-button">
+        <img src="./assets/icons/nav/aboutus-icon.svg" alt="Ícono de más información" class="icon nav-icon">
+        <span class="nav-title">Nosotros</span>
+      </button>
+    </nav>
+    <header>
+      <img src="assets/icons/menu-icon.svg" alt="Ícono de menú de navegación" class="icon header-icon">
+      <span>Estación del Sabor</span>
+    </header>
+    <main>
+      <article class="card promo-card">
+        <h2 class="card-title">
+          <span>Probá nuestro menú veraniego</span>
+          <img src="./assets/icons/promo/summer-umbrella.svg" alt="Ícono de una sombrilla" class="icon">
+        </h2>
+        <button class="more-button">
+          <span>Ver más</span>
+          <img src="./assets/icons/arrow-right.svg" alt="Ícono de una flecha hacia la derecha" class="icon">
         </button>
-        <button class="nav-button">
-          <img
-            src="./assets/icons/nav/menu-icon.svg"
-            alt="Ícono de menú"
-            class="nav-icon"
-          />
-          <span class="nav-title">Menú</span>
+      </article>
+      <article class="card info-card">
+        <h2 class="card-title">
+          <span>Cambiamos con cada estación</span>
+          <img src="./assets/icons/change.svg" alt="Ícono de una flecha circular" class="icon">
+        </h2>
+        <p class="card-info">Contamos con un menú dinámico el cual se adapta a las condiciones de cada estación del año.</p>
+        <button class="more-button">
+          <span>Todos los menús</span>
+          <img src="./assets/icons/arrow-right.svg" alt="Ícono de una flecha hacia la derecha" class="icon">
         </button>
-        <button class="nav-button">
-          <img
-            src="./assets/icons/nav/location-icon.svg"
-            alt="Ícono de ubicación"
-            class="nav-icon"
-          />
-          <span class="nav-title">Ubicación</span>
-        </button>
-        <button class="nav-button">
-          <img
-            src="./assets/icons/nav/reviews-icon.svg"
-            alt="Ícono de reseñas"
-            class="nav-icon"
-          />
-          <span class="nav-title">Reseñas/Contacto</span>
-        </button>
-        <button class="nav-button">
-          <img
-            src="./assets/icons/nav/aboutus-icon.svg"
-            alt="Ícono de más información"
-            class="nav-icon"
-          />
-          <span class="nav-title">Nosotros</span>
-        </button>
-      </nav>
-      <header>
-        <img
-          src="assets/icons/menu-icon.svg"
-          alt="Ícono de menú de navegación"
-          class="header-icon"
-        />
+      </article>
+    </main>
+    <footer>
+      <h3>
+        <img src="./assets/icons/logo-icon.svg" alt="Ícono de una taza" class="icon">
         <span>Estación del Sabor</span>
-      </header>
-      <main>
-        <article class="card promo-card">
-          <h2 class="card-title">
-            <span>Probá nuestro menú veraniego</span>
-            <img src="" alt="Ícono de una sombrilla" />
-          </h2>
-          <button class="more-button">
-            <span>Ver más</span>
-            <img src="" alt="Ícono de una flecha hacia la derecha" />
-          </button>
-        </article>
-        <article class="card info-card">
-          <h2 class="card-title">
-            <span>Cambiamos con cada estación</span>
-            <img src="" alt="Ícono de una flecha circular" />
-          </h2>
-          <p class="card-info">
-            Contamos con un menú dinámico el cual se adapta a las condiciones de
-            cada estación del año.
-          </p>
-          <button class="more-button">
-            <span>Todos los menús</span>
-            <img src="" alt="Ícono de una flecha hacia la derecha" />
-          </button>
-        </article>
-      </main>
-      <footer>
-        <h3>
-          <img src="" alt="Ícono de una taza" />
-          <span>Estación del Sabor</span>
-        </h3>
-      </footer>
-    </div>
-  </body>
+      </h3>
+    </footer>
+  </div>
+</body>
+
 </html>
