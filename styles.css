@@ -21,8 +21,7 @@ body {
 }
 
 body {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0rem 1rem;
 }
 
 #container {
@@ -121,7 +120,7 @@ nav {
 
 .card {
   margin: 12px 0 12px 0;
-  padding: 32px;
+  padding: 2rem 2rem;
   height: fit-content;
   border-radius: 24px;
 }
@@ -131,6 +130,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .info-card {
@@ -144,11 +144,11 @@ nav {
 .card-title {
   font-family: "Zilla Slab", serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: var(--text-color);
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 12px;
   text-align: center;
 }
 
@@ -163,16 +163,18 @@ nav {
 .more-button {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0.625rem;
+  font-weight: 600;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px 8px 16px;
+  padding: 0.5rem 1.125rem;
   border-radius: 8px;
   border: none;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Zilla Slab", serif;
-  font-size: 16px;
+  font-size: 1rem;
+  letter-spacing: -0.03rem;
 }
 
 .inner-card {
@@ -180,7 +182,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .inner-card div {
@@ -201,8 +203,9 @@ nav {
   background-color: #ffdf61;
 
   & img {
+    height: 20rem;
     top: -10px;
-    left: -10px;
+    left: -2rem;
   }
 }
 
@@ -238,13 +241,13 @@ nav {
 .inner-card-text {
   font-family: "Zilla Slab", serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  gap: 12px;
   margin: 32px 20px 32px 20px;
+  font-weight: 600;
 
   & span {
     text-wrap: nowrap;
@@ -252,23 +255,25 @@ nav {
 }
 
 .inner-card-title {
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .inner-promo {
-  margin: 20px 0 20px 0;
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 800px;
-  height: 250px;
+  max-width: 600px;
+  height: 225px;
+  padding: 0.75rem 1rem;
+  border-radius: 1.5rem;
 }
 
 #verano {
   background-color: var(--bg-color);
   background-image: url("./assets/images/promo/summer.png");
   background-position: top 15% right -4rem;
-  background-size: 300px;
+  background-size: 275px;
   background-repeat: no-repeat;
 }
 .more-button:link {
