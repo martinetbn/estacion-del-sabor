@@ -21,8 +21,7 @@ body {
 }
 
 body {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0rem 1rem;
 }
 
 #container {
@@ -121,7 +120,7 @@ nav {
 
 .card {
   margin: 12px 0 12px 0;
-  padding: 32px;
+  padding: 2rem 2rem;
   height: fit-content;
   border-radius: 24px;
 }
@@ -131,6 +130,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .info-card {
@@ -182,7 +182,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .inner-card div {
@@ -203,8 +203,9 @@ nav {
   background-color: #ffdf61;
 
   & img {
+    height: 20rem;
     top: -10px;
-    left: -10px;
+    left: -2rem;
   }
 }
 
@@ -259,18 +260,19 @@ nav {
 }
 
 .inner-promo {
-  margin: 20px 0 20px 0;
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 800px;
-  height: 250px;
+  max-width: 600px;
+  height: 225px;
+  padding: 0.75rem 1rem;
+  border-radius: 1.5rem;
 }
 
 #verano {
   background-color: var(--bg-color);
   background-image: url("./assets/images/promo/summer.png");
   background-position: top 15% right -4rem;
-  background-size: 300px;
+  background-size: 275px;
   background-repeat: no-repeat;
 }
