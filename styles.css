@@ -144,11 +144,11 @@ nav {
 .card-title {
   font-family: "Zilla Slab", serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: var(--text-color);
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 12px;
   text-align: center;
 }
 
@@ -164,6 +164,7 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  font-weight: 600;
   justify-content: center;
   align-items: center;
   padding: 8px 16px 8px 16px;
@@ -172,7 +173,7 @@ nav {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Zilla Slab", serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .inner-card {
@@ -238,13 +239,13 @@ nav {
 .inner-card-text {
   font-family: "Zilla Slab", serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  gap: 12px;
   margin: 32px 20px 32px 20px;
+  font-weight: 600;
 
   & span {
     text-wrap: nowrap;
@@ -252,7 +253,8 @@ nav {
 }
 
 .inner-card-title {
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .inner-promo {
