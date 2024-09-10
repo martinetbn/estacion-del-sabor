@@ -271,3 +271,16 @@ nav {
   background-size: 300px;
   background-repeat: no-repeat;
 }
+.more-button:link {
+  color:rgb(233, 233, 41)
+}
+.more-button:visited {
+  color:rgb(124, 124, 39)
+}
+.more-button:hover {
+  color:rgb(255, 217, 0);
+
+}
+.more-button:active {
+  color:rgb(31, 26, 3);
+}
