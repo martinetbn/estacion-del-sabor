@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estación del Sabor</title>
+    <title>Estación del Sabor - Menú</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Zilla+Slab:wght@400;600;700&display=swap"
@@ -23,14 +23,14 @@
         <span>Estación del Sabor</span>
       </header>
       <nav>
-        <a class="nav-button" href="/menu.html">
+        <button class="nav-button">
           <img
             src="./assets/icons/nav/home-icon.svg"
             alt="Ícono de inicio"
             class="icon nav-icon"
           />
           <span class="nav-title">Inicio</span>
-        </a>
+        </button>
         <button class="nav-button">
           <img
             src="./assets/icons/nav/menu-icon.svg"
@@ -65,66 +65,53 @@
         </button>
       </nav>
       <main class="main">
-        <article class="card promo-card">
-          <h2 class="card-title">
-            <span>Probá nuestro menú veraniego</span>
-            <img
-              src="./assets/icons/promo/summer-umbrella.svg"
-              alt="Ícono de una sombrilla"
-              class="icon"
-            />
-          </h2>
-          <div class="inner-promo" id="verano">
-            <div class="inner-card-text">
-              <span>Especial verano</span>
-              <span class="inner-card-title">Frappé</span>
-            </div>
-          </div>
-          <button class="more-button">
-            <span>Ver más</span>
-            <img
-              src="./assets/icons/arrow-right.svg"
-              alt="Ícono de una flecha hacia la derecha"
-              class="icon"
-            />
-          </button>
-        </article>
-        <article class="card info-card">
-          <h2 class="card-title">
-            <span>Cambiamos con cada estación</span>
-            <img
-              src="./assets/icons/change.svg"
-              alt="Ícono de una flecha circular"
-              class="icon"
-            />
-          </h2>
-          <p class="card-text">
-            Contamos con un menú dinámico el cual se adapta a las condiciones de
-            cada estación del año.
-          </p>
-          <div class="inner-card">
-            <div class="summer">
-              <img src="./assets/images/promo/summer.png" />
-            </div>
-            <div class="autumn">
-              <img src="./assets/images/promo/autumn.png" />
-            </div>
-            <div class="winter">
-              <img src="./assets/images/promo/winter.png" />
-            </div>
-            <div class="spring">
-              <img src="./assets/images/promo/spring.png" />
-            </div>
-          </div>
-          <a href="#" class="more-button">
-            <span >Todos los menús</span>
-            <img
-              src="./assets/icons/arrow-right.svg"
-              alt="Ícono de una flecha hacia la derecha"
-              class="icon"
-
-            />
-          </a>
+        <article class="card menu-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plato</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Café</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Té</td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td>Jugo de naranja</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>Sandwich de jamón y queso</td>
+                        <td>$350</td>
+                    </tr>
+                    <tr>
+                        <td>Ensalada cesar</td>
+                        <td>$400</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Hamburguesa</td>
+                        <td>$600</td>
+                    </tr>
+                    <tr>
+                        <td>Pasta</td>
+                        <td>$450</td>
+                    </tr>
+                    <tr>
+                        <td>Postre</td>
+                        <td>$250</td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
       </main>
       <footer>

@@ -116,6 +116,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  text-decoration: none;
 }
 
 .nav-icon {
@@ -131,6 +132,13 @@ main {
 }
 
 .promo-card {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-card {
   background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
@@ -292,6 +300,34 @@ main {
 }
 .more-button:active {
   color: rgb(31, 26, 3);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.promo-card,
+.info-card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+table {
+  background-color: var(--bg-color);
+  border-radius: 1.5rem;
+  border-spacing: 24px;
+  padding: 0.2rem;
+}
+
+table thead tr th {
+  text-align: start;
 }
 
 @media screen and (min-width: 1280px) {
