@@ -3,6 +3,10 @@
   --text-color: #6e4332;
   --secondary-color: #fff4c8;
   --alt-color: #ededed;
+  --spring-color: #a1ef71;
+  --summer-color: #ffdf61;
+  --autumn-color: #ff8b61;
+  --winter-color: #617ef5;
 }
 
 * {
@@ -257,7 +261,7 @@ main {
 .inner-card .summer {
   border-start-start-radius: 1.5rem;
   border-end-start-radius: 1.5rem;
-  background-color: #ffdf61;
+  background-color: var(--bg-color);
 
   & img {
     height: 20rem;
