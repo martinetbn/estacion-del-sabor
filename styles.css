@@ -69,6 +69,10 @@ nav::-webkit-scrollbar {
 
 footer {
   border-radius: 24px 24px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+
 }
 
 footer > h3 {
@@ -298,4 +302,8 @@ main {
   header img {
     display: none;
   }
+}
+.footer-logo {
+  width: 123PX;
+  margin-right: 30px;
 }
