@@ -147,10 +147,6 @@ main {
   height: fit-content;
   border-radius: 24px;
   gap: 1.5rem;
-}
-
-.promo-card,
-.info-card {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
