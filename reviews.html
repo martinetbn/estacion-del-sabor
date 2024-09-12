@@ -1,63 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estación del Sabor - Reseñas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Zilla+Slab:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Estación del Sabor</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Zilla+Slab:wght@400;600;700&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <div id="container">
-    <header>
-      <h1 id="header-title">
-        <img src="assets/icons/menu-icon.svg" alt="Ícono de menú de navegación" class="icon header-icon">
-
+  <body>
+    <div id="container">
+      <header>
+        <img
+          src="assets/icons/menu-icon.svg"
+          alt="Ícono de menú de navegación"
+          class="icon header-icon"
+        />
         <span>Estación del Sabor</span>
-
-    </header>
-    <nav>
-      <a class="nav-button" href="./index.html">
-        <img src="./assets/icons/nav/home-icon.svg" alt="Ícono de inicio" class="icon nav-icon" />
-        <span class="nav-title">Inicio</span>
-      </a>
-      <a class="nav-button" href="./menu.html">
-        <img src="./assets/icons/nav/menu-icon.svg" alt="Ícono de menú" class="icon nav-icon" />
-        <span class="nav-title">Menú</span>
-      </a>
-      <a class="nav-button" href="./location.html">
-        <img src="./assets/icons/nav/location-icon.svg" alt="Ícono de ubicación" class="icon nav-icon" />
-        <span class="nav-title">Ubicación</span>
-      </a>
-      <a class="nav-button" href="./reviews.html">
-        <img src="./assets/icons/nav/reviews-icon.svg" alt="Ícono de reseñas" class="icon nav-icon" />
-        <span class="nav-title">Reseñas</span>
-      </a>
-      <a class="nav-button" href="./about_us.html">
-        <img src="./assets/icons/nav/aboutus-icon.svg" alt="Ícono de más información" class="icon nav-icon" />
-        <span class="nav-title">Nosotros</span>
-      </a>
-    </nav>
-    <main class="main"></main>
-    <footer>
-      <h3>
-        <img src="./assets/icons/logo-icon.svg" alt="Ícono de una taza" class="icon footer-icon" />
-        <span>Estación del Sabor</span>
-      </h3>
-      <div id="socials">
-        <a href="https://www.tiktok.com/" target="_blank"><img src="./assets/icons/socials/tiktok.svg"
-            alt="Logo de TikTok" class="icon social-icon" /></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/icons/socials/instagram.svg"
-            alt="Logo de Instagram" class="icon social-icon" /></a>
-        <a href="https://x.com/" target="_blank"><img src="./assets/icons/socials/x.svg" alt="Logo de X/Twitter"
-            class="icon social-icon" /></a>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </header>
+      <nav>
+        <a class="nav-button" href="./index.html">
+          <img
+            src="./assets/icons/nav/home-icon.svg"
+            alt="Ícono de inicio"
+            class="icon nav-icon"
+          />
+          <span class="nav-title">Inicio</span>
+        </a>
+        <a class="nav-button" href="./menu.html">
+          <img
+            src="./assets/icons/nav/menu-icon.svg"
+            alt="Ícono de menú"
+            class="icon nav-icon"
+          />
+          <span class="nav-title">Menú</span>
+        </a>
+        <a class="nav-button" href="./location.html">
+          <img
+            src="./assets/icons/nav/location-icon.svg"
+            alt="Ícono de ubicación"
+            class="icon nav-icon"
+          />
+          <span class="nav-title">Ubicación</span>
+        </a>
+        <a class="nav-button" href="./reviews.html">
+          <img
+            src="./assets/icons/nav/reviews-icon.svg"
+            alt="Ícono de reseñas"
+            class="icon nav-icon"
+          />
+          <span class="nav-title">Reseñas</span>
+        </a>
+        <a class="nav-button" href="./about_us.html">
+          <img
+            src="./assets/icons/nav/aboutus-icon.svg"
+            alt="Ícono de más información"
+            class="icon nav-icon"
+          />
+          <span class="nav-title">Nosotros</span>
+        </a>
+      </nav>
+      <main class="main">
+        <div class="card reviews-card">
+          <h1>Reseñas</h1>
+          <form class="review-input">
+            <div class="inline">
+              <span>Danos tu valoración:</span>
+              <div class="stars">
+                <input type="number" min="1" max="10" />
+                <span>/10</span>
+              </div>
+            </div>
+            <textarea rows="5"></textarea>
+            <button type="button">Aceptar</button>
+          </form>
+          <div class="review-list">
+            <div class="review">
+              <span><strong>Juan</strong> (10/10)</span>
+              <span>Muy buen lugar!</span>
+            </div>
+            <div class="review">
+              <span><strong>María</strong> (9/10)</span>
+              <span>Recomendado</span>
+            </div>
+            <div class="review">
+              <span><strong>Pedro</strong> (10/10)</span>
+              <span>El frapé estaba muy rico!</span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h3>
+          <img
+            src="./assets/icons/logo-icon.svg"
+            alt="Ícono de una taza"
+            class="icon footer-icon"
+          />
+          <span>Estación del Sabor</span>
+        </h3>
+        <div id="socials">
+          <a href="https://www.tiktok.com/" target="_blank"
+            ><img
+              src="./assets/icons/socials/tiktok.svg"
+              alt="Logo de TikTok"
+              class="icon social-icon"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="./assets/icons/socials/instagram.svg"
+              alt="Logo de Instagram"
+              class="icon social-icon"
+          /></a>
+          <a href="https://x.com/" target="_blank"
+            ><img
+              src="./assets/icons/socials/x.svg"
+              alt="Logo de X/Twitter"
+              class="icon social-icon"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

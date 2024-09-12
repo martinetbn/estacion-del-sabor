@@ -3,6 +3,10 @@
   --text-color: #6e4332;
   --secondary-color: #fff4c8;
   --alt-color: #ededed;
+  --spring-color: #a1ef71;
+  --summer-color: #ffdf61;
+  --autumn-color: #ff8b61;
+  --winter-color: #617ef5;
 }
 
 * {
@@ -55,7 +59,11 @@ header {
   border-radius: 0 0 24px 24px;
 }
 
-a{
+header .icon {
+  display: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -92,7 +100,7 @@ footer {
   padding: 1.5rem;
 }
 
-footer .logo{
+footer .logo {
   display: flex;
   align-items: center;
   justify-items: center;
@@ -139,6 +147,10 @@ main {
   justify-content: center;
   gap: 16px;
   text-decoration: none;
+}
+
+.nav-button:hover {
+  filter: brightness(1.05);
 }
 
 .nav-icon {
@@ -222,6 +234,10 @@ main {
   text-decoration: none;
 }
 
+.more-button:hover {
+  filter: brightness(1.05);
+}
+
 .inner-card {
   /* margin: 20px 0 20px 0; */
   display: flex;
@@ -245,7 +261,7 @@ main {
 .inner-card .summer {
   border-start-start-radius: 1.5rem;
   border-end-start-radius: 1.5rem;
-  background-color: #ffdf61;
+  background-color: var(--bg-color);
 
   & img {
     height: 20rem;
@@ -361,27 +377,102 @@ table {
   padding: 0.2rem;
   width: 100%;
   max-width: 600px;
-} 
+}
 
 table thead tr th {
   text-align: start;
 }
 
-@media screen and (min-width: 1280px) {
-  header .icon {
-    display: none;
-  }
+.reviews-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--secondary-color);
 }
-.conteiner-map {
-  width: 90%;
-  height:100vh;
+
+.review-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-input .inline {
   display: flex;
   align-items: center;
-  align-content: center;
+  justify-content: flex-start;
+  gap: 8px;
 }
-iframe {
+
+.review-input span {
+  font-weight: bold;
+}
+
+.review-input .stars {
+  align-items: center;
   display: flex;
-  gap: 15px;
-  width: 80%;
-  height: 70%;
+  gap: 8px;
+}
+
+.review-input .stars input {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  width: 40px;
+}
+
+.review-input .stars input::-webkit-outer-spin-button,
+.review-input .stars input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.review-input button {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.review-input textarea {
+  padding: 8px;
+  border-radius: 1rem;
+  font-size: 1rem;
+  outline: none;
+  resize: vertical;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main .acerca {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.acercaDeNosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    width: 80%;
+    border-radius: 20px;
+  }
+}
+main p {
+  text-align: center;
+  margin-top: 20px;
 }
