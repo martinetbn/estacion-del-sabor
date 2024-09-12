@@ -48,16 +48,13 @@ footer {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   gap: 12px;
   border-radius: 0 0 24px 24px;
 }
 
-#header-title {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
+a{
+  text-decoration: none;
 }
 
 .company-logo {
@@ -65,7 +62,7 @@ header {
 }
 
 nav {
-  padding: 1.5rem;
+  padding: 1.25rem;
   border-radius: 1.5rem;
   background-color: var(--secondary-color);
   display: flex;
@@ -86,15 +83,14 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  padding: 12px;
+  padding: 1.5rem;
 }
 
-footer > h3 {
+footer .logo{
   display: flex;
-  flex-direction: row;
-  gap: 12px;
-  justify-content: center;
   align-items: center;
+  justify-items: center;
+  gap: 8px;
 }
 
 .footer-icon {
