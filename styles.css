@@ -433,6 +433,7 @@ table thead tr th {
   border-radius: 1rem;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .review-input textarea {
