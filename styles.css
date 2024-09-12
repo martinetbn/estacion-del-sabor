@@ -3,6 +3,10 @@
   --text-color: #6e4332;
   --secondary-color: #fff4c8;
   --alt-color: #ededed;
+  --spring-color: #a1ef71;
+  --summer-color: #ffdf61;
+  --autumn-color: #ff8b61;
+  --winter-color: #617ef5;
 }
 
 * {
@@ -257,7 +261,7 @@ main {
 .inner-card .summer {
   border-start-start-radius: 1.5rem;
   border-end-start-radius: 1.5rem;
-  background-color: #ffdf61;
+  background-color: var(--bg-color);
 
   & img {
     height: 20rem;
@@ -379,21 +383,76 @@ table thead tr th {
   text-align: start;
 }
 
-main .acerca {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.acercaDeNosotros {
+.reviews-card {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  & img {
-    width: 80%;
-    border-radius: 20px;
-  }
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--secondary-color);
 }
-main p {
+
+.review-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-input .inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.review-input span {
+  font-weight: bold;
+}
+
+.review-input .stars {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.review-input .stars input {
   text-align: center;
-  margin-top: 20px;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  width: 40px;
+}
+
+.review-input .stars input::-webkit-outer-spin-button,
+.review-input .stars input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.review-input button {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.review-input textarea {
+  padding: 8px;
+  border-radius: 1rem;
+  font-size: 1rem;
+  outline: none;
+  resize: vertical;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 1rem;
 }
