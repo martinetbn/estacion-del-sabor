@@ -202,13 +202,14 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 12px;  
   text-align: center;
 }
 
 .card-text {
   font-family: Inter, sans-serif;
   font-weight: normal;
+  margin: 0;
   font-size: 16px;
   color: var(--text-color);
   text-align: center;
