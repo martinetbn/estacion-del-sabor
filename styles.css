@@ -202,13 +202,14 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 12px;  
   text-align: center;
 }
 
 .card-text {
   font-family: Inter, sans-serif;
   font-weight: normal;
+  margin: 0;
   font-size: 16px;
   color: var(--text-color);
   text-align: center;
@@ -433,6 +434,7 @@ table thead tr th {
   border-radius: 1rem;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .review-input textarea {
@@ -475,3 +477,15 @@ main p {
   text-align: center;
   margin-top: 20px;
 }
+.conteiner-map {
+  width: 90%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+iframe {
+  display: flex;
+  gap: 15px;
+  width: 80%;
+  height: 70%;}
