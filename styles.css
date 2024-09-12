@@ -55,7 +55,11 @@ header {
   border-radius: 0 0 24px 24px;
 }
 
-a{
+header .icon {
+  display: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -92,7 +96,7 @@ footer {
   padding: 1.5rem;
 }
 
-footer .logo{
+footer .logo {
   display: flex;
   align-items: center;
   justify-items: center;
@@ -139,6 +143,10 @@ main {
   justify-content: center;
   gap: 16px;
   text-decoration: none;
+}
+
+.nav-button:hover {
+  filter: brightness(1.05);
 }
 
 .nav-icon {
@@ -220,6 +228,10 @@ main {
   font-size: 1rem;
   letter-spacing: -0.03rem;
   text-decoration: none;
+}
+
+.more-button:hover {
+  filter: brightness(1.05);
 }
 
 .inner-card {
@@ -361,14 +373,8 @@ table {
   padding: 0.2rem;
   width: 100%;
   max-width: 600px;
-} 
+}
 
 table thead tr th {
   text-align: start;
-}
-
-@media screen and (min-width: 1280px) {
-  header .icon {
-    display: none;
-  }
 }
