@@ -456,3 +456,22 @@ table thead tr th {
   padding: 1rem;
   border-radius: 1rem;
 }
+
+main .acerca {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.acercaDeNosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    width: 80%;
+    border-radius: 20px;
+  }
+}
+main p {
+  text-align: center;
+  margin-top: 20px;
+}
