@@ -185,7 +185,7 @@ main {
   align-items: center;
 }
 
-.info-card {
+.info-card, .map-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -484,16 +484,16 @@ main p {
   max-width: 75%;
 }
 
-.conteiner-map {
+/* .map-card {
   width: 90%;
-  height:100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   align-content: center;
-}
-
-iframe {
-  display: flex;
+  justify-content: space-between;
   gap: 15px;
+} */
+
+/* #map {
   width: 80%;
-  height: 70%;}
+  height: 70%;} */
