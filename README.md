@@ -58,6 +58,8 @@ Amigable y juvenil.
 
 # Arquitectura web
 
+El sitio web presenta una arquitectura horizontal.
+
 ![Gráfico de la arquitectura de la información del sitio](./assets/images/arquitectura.png)
 
 # Rol de cada integrante
