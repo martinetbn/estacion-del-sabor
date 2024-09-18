@@ -54,14 +54,16 @@ Cada estación es única.
 
 ## Imagen general que se desea transmitir
 
-Amigable.
+Amigable y juvenil.
 
-# Descripción del sitio web
+# Arquitectura web
+
+![Gráfico de la arquitectura de la información del sitio](./assets/images/arquitectura.png)
 
 # Rol de cada integrante
 
 Diseñador UX/UI: Martín Etchebarne
 
-Programador: Florencia Acosta, Martín Etchebarne, Matías Flores, Michelle Perna
+Maquetador: Florencia Acosta, Martín Etchebarne, Matías Flores, Michelle Perna
 
 Comunicador Web: ?
