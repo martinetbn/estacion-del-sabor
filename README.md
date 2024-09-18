@@ -30,9 +30,11 @@ El sitio está dirigido a jóvenes de 16 a 24 años de ambos sexos, que disfruta
 
 ## Logo
 
+![Logo](./assets/images/logo.png)
+
 ## Paleta de colores
 
-La paleta de colores varía dependiendo de cada estación: En verano usamos tonos amarillos, en otoño anaranjados, en inverno azules y en primavera verdes.
+La paleta de colores varía dependiendo de cada estación: en verano usamos tonos amarillos, en otoño anaranjados, en inverno azules y en primavera verdes.
 
 ### Verano
 
