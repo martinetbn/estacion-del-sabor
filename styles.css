@@ -419,7 +419,7 @@ table thead tr th {
   padding: 0.5rem;
   border-radius: 0.4rem;
   font-size: 0.9rem;
-  width: 40px;
+  /* width: 40px; */
 }
 
 .review-input .stars input::-webkit-outer-spin-button,
