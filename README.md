@@ -61,5 +61,7 @@ Amigable.
 # Rol de cada integrante
 
 Diseñador UX/UI: Martín Etchebarne
+
 Programador: Florencia Acosta, Martín Etchebarne, Matías Flores, Michelle Perna
+
 Comunicador Web: ?
