@@ -484,49 +484,39 @@ main p {
 .aboutus-card > p {
   max-width: 75%;
 }
+
 .contenedor2 {
   display: flex;
   align-items: flex-start; 
-  margin-bottom: 20px;
-  
+  margin-bottom: 20px;  
 }
+
 .picture {
   width: 500px; 
   margin-right: 200px; 
-
 }
+
 .texto5{
   flex: 1;
 }
+
 #map {
   width: 100%;
+  max-width: 900px;
   height: 240px;
   margin-top: 20px;
 }
+
 p {
   display: flex;
   justify-content: center;
 }
+
 .dia {
   flex: 1;
 }
+
 .hora {
   flex: 5;
   text-align: right;
 }
-
-
-
-/* .map-card {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
-  gap: 15px;
-} */
-
-/* #map {
-  width: 80%;
-  height: 70%;} */
